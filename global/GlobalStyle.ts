@@ -7,9 +7,15 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         font-family: 'Inter', sans-serif;
     }
+    :root {
+        --primary: #040d58;
+        --secondary: #f4f800;;
+        --tertiary: #fdff98;
+    }
+    //#f4f800;
     body {
          font-family: "Roboto", sans-serif;
         background: #06185c;
-        background: radial-gradient(circle, rgba(6, 24, 92, 1) 0%, rgba(1, 5, 20, 1) 100%);
+        background: #030611ff
     }
 `;

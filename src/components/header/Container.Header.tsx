@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const ContainerMaster = styled.header`
-    height: 100px;
+    height: 140px;
     width: 100%;
     background-color: #040d58;
 `
