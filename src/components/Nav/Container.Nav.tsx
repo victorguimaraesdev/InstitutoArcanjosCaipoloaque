@@ -31,7 +31,7 @@ export const ContainerNav = () => {
             <Link>Home</Link>
             <Link>Galeria</Link>
             <Link>Campeonatos</Link>
-            <Link>Sobre Nós</Link>
+            <Link>Sobre</Link>
         </ContainerMaster>
     )
 }
