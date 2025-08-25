@@ -6,7 +6,6 @@ const ContainerMaster = styled.nav`
     gap: 100px;
     height: 50px;
     width: 50%;
-    /* border-radius: 0 50px 50px 0; */
     background-color: rgba(0, 0, 0, 0.2);
 `
 
