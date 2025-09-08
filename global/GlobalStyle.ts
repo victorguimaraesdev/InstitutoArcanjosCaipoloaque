@@ -15,7 +15,6 @@ export const GlobalStyle = createGlobalStyle`
     //#f4f800;
     body {
          font-family: "Roboto", sans-serif;
-        background: #06185c;
-        background: #030611ff
+         background-color: white;
     }
 `;
