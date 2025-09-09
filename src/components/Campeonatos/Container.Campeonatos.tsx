@@ -1,5 +1,4 @@
-import styled from "styled-components"
-import { SlArrowLeft, SlArrowRight } from "react-icons/sl";
+import styled from "styled-components";
 
 const ContainerMaster = styled.div`
     display: flex;
@@ -7,7 +6,7 @@ const ContainerMaster = styled.div`
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 800px;
+    height: 400px;
 
     border-top: 50px solid #002063;
     /* border: 2px solid green; */
@@ -90,45 +89,7 @@ const ButtonInfo = styled.button`
   }
 `;
 
-const Carrosel = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 400px;
-    /* border: 2px solid green; */
-`
-const ContainerMain = styled.div`
-    width: 50%;
-    height: 400px;
-    /* border: 2px solid blue; */
-`
-const ArrowLeft = styled(SlArrowLeft)`
-  position: relative;
-  font-size: clamp(1.5rem, 4vw, 3rem);
-  color: #002063;
-  cursor: pointer;
-
-  @media (max-width: 768px) {
-    left: 2rem;
-  }
-  `
-const ArrowRight = styled(SlArrowRight)`
-  position: relative;
-  font-size: clamp(1.5rem, 4vw, 3rem);
-  color: #002063;
-  cursor: pointer;
-`;
-const Img = styled.img`
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-`;
-
-
-
-export const ContainerCarrosel = () => {
+export const ContainerCampeonato = () => {
     return (
         <ContainerMaster>
             <ContainerInfo>
@@ -138,14 +99,6 @@ export const ContainerCarrosel = () => {
                 <Text> Navegue pelas fotos e vídeos da nossa equipe em ação e sinta de perto a dedicação que colocamos em cada remada, passe e gol.</Text>
                 <ButtonInfo>Explorar Galeria</ButtonInfo>
             </ContainerInfo>
-
-            <Carrosel>
-                <ArrowLeft />
-                <ContainerMain>
-                    <Img src="/assets/imgs/ba.png" alt="banner" />
-                </ContainerMain>
-                <ArrowRight />
-            </Carrosel>
         </ContainerMaster>
     )
 }

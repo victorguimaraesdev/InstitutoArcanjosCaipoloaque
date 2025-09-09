@@ -4,8 +4,9 @@ const ContainerMaster = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     width: 100%;
-    height: 350px;
+    height: 500px;
     border-top: 50px solid #002063;
     padding: 0 10px;
 
@@ -142,10 +143,16 @@ const CardText = styled.p`
         font-size: 0.8rem;
     }
 `
+const Ball = styled.img`
+    width: 100px;
+    height: auto;
+    margin-bottom: 30px;
+`
 
 export const ContainerCardHome = () => {
     return (
         <ContainerMaster>
+            <Ball src="/assets/icons/ball.png" />
             <ContainerCard>
                 <ContainerImage src="/assets/imgs/diretor2.png" />
                 <ContainerInfo>
