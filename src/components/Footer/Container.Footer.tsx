@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const ContainerMaster = styled.footer`
-    height: 50px;
+    height: 250px;
     width: 100%;
     background-color: var(--primary);
 `

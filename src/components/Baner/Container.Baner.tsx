@@ -8,35 +8,27 @@ const ContainerBanner = styled.section`
   text-align: center;
 
   width: 100%;
-  height: 400px;
-
-  background-image: url("/assets/imgs/banner.jpg"); /* troca quando quiser */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
+  min-height: 400px;
   padding: 20px;
 
   @media (max-width: 768px) {
-    height: auto;
     padding: 40px 20px;
   }
 `;
-
 const BannerImage = styled.img`
   width: 80px;
   height: auto;
   margin-bottom: 15px;
 
   @media (max-width: 480px) {
-    width: 90px;
+    width: 80px;
   }
 `;
 
 const BannerTitle = styled.h1`
   font-size: 2.5rem;
   margin-bottom: 10px;
-  color: #002063; /* cor principal */
+  color: #002063;
 
   @media (max-width: 768px) {
     font-size: 2rem;
@@ -48,37 +40,58 @@ const BannerTitle = styled.h1`
 `;
 
 const BannerSubtitle = styled.h2`
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
   font-weight: 400;
-  color: #002063; /* cor principal */
+  color: #002063;
 
   @media (max-width: 768px) {
     font-size: 1.2rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1rem;
   }
 `;
 
 const BannerText = styled.p`
   font-size: 1rem;
   max-width: 700px;
-  line-height: 1.5;
-  color: #333; /* cor neutra para boa leitura sobre fundo branco */
+  line-height: 1.6;
+  color: #333;
 
   @media (max-width: 768px) {
     font-size: 0.9rem;
   }
 `;
+const ButtonInfo = styled.button`
+  background-color: #002063;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
 
-export const Banner = () => {
-    return (
-        <ContainerBanner>
-            <BannerImage src="/assets/icons/caiaque.png" alt="icone" />
-            <BannerTitle>Bem-vindo ao Nosso Site</BannerTitle>
-            <BannerSubtitle>Subtítulo de destaque</BannerSubtitle>
-            <BannerText>
-                Aqui você pode colocar uma descrição breve do seu projeto, serviço ou
-                empresa. Esse espaço é perfeito para passar a mensagem principal.
-            </BannerText>
-        </ContainerBanner>
-    );
+  &:hover {
+    background-color: #00ffea;
+  }
+`;
+
+export const ContainerBaner = () => {
+  return (
+    <ContainerBanner>
+      <BannerImage src="/assets/icons/caiaque.png" alt="Ícone de caiaque" />
+      <BannerTitle>Instituto Arcanjo Caiaque Polo</BannerTitle>
+      <BannerSubtitle>Promovendo o caiaque polo em São Miguel Arcanjo</BannerSubtitle>
+      <BannerText>
+        Fundado legalmente em 26/04/2021, o Instituto é uma organização sem fins lucrativos criada por
+        pais e pelo diretor do comitê brasileiro de caiaque polo. Nossa missão é formar atletas,
+        organizar a escolinha de caiaque e representar São Miguel Arcanjo nas principais competições
+        nacionais de canoagem.
+      </BannerText>
+      <ButtonInfo>Conhecer mais</ButtonInfo>
+    </ContainerBanner>
+  );
 };
