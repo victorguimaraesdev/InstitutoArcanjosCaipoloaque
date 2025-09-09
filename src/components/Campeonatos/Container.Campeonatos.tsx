@@ -90,15 +90,20 @@ const ButtonInfo = styled.button`
 `;
 
 export const ContainerCampeonato = () => {
-    return (
-        <ContainerMaster>
-            <ContainerInfo>
-                <Icon src="/assets/icons/gallery.png" alt="logo" />
-                <Title>Descubra Nossa Galeria</Title>
-                <SubTitle>Cada imagem conta uma história única</SubTitle>
-                <Text> Navegue pelas fotos e vídeos da nossa equipe em ação e sinta de perto a dedicação que colocamos em cada remada, passe e gol.</Text>
-                <ButtonInfo>Explorar Galeria</ButtonInfo>
-            </ContainerInfo>
-        </ContainerMaster>
-    )
+  return (
+    <ContainerMaster>
+      <ContainerInfo>
+        <Icon src="/assets/icons/trofeu.png" alt="logo" />
+        <Title>Nossos Campeonatos</Title>
+        <SubTitle>Histórias escritas dentro d’água</SubTitle>
+        <Text>
+          Ao longo da nossa trajetória, tivemos a honra de participar de torneios que
+          desafiaram nossa resistência, união e paixão pelo caiaque polo. Cada
+          campeonato foi uma oportunidade de aprender, crescer e mostrar a força da
+          nossa equipe dentro e fora da água.
+        </Text>
+        <ButtonInfo>Ver Campeonatos</ButtonInfo>
+      </ContainerInfo>
+    </ContainerMaster>
+  )
 }

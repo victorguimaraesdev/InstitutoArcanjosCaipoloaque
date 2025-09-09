@@ -6,6 +6,7 @@ import { ContainerCardHome } from '../components/CardHome/Container.CardHome'
 import { ContainerBaner } from '../components/Baner/Container.Baner'
 import { ContainerCarrosel } from '../components/Carrosel/Container.Carrosel'
 import { ContainerCampeonato } from '../components/Campeonatos/Container.Campeonatos'
+import { ContainerCardsCampeonatos } from '../components/CardsCampeonatos/Container.CardsCampeonatos'
 
 
 
@@ -18,6 +19,7 @@ export const Home = () => {
             <ContainerCardHome />
             <ContainerCarrosel />
             <ContainerCampeonato />
+            <ContainerCardsCampeonatos />
             <ContainerFooter />
         </>
     )

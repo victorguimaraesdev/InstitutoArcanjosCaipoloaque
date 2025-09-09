@@ -10,7 +10,7 @@ const ContainerMaster = styled.header`
   height: 350px;
   padding: 0 2rem;
 
-  background-image: url("/assets/imgs/ba.png");
+  background-image: url("/assets/imgs/img3.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
