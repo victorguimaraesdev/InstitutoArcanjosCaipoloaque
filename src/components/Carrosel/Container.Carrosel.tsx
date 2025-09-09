@@ -9,6 +9,7 @@ const ContainerMaster = styled.div`
   flex-direction: column;
   width: 100%;
   height: auto;
+  margin-bottom: 20px;
 
   border-top: 50px solid #002063;
 `;

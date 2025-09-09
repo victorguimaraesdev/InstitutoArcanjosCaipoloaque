@@ -143,16 +143,10 @@ const CardText = styled.p`
         font-size: 0.8rem;
     }
 `
-// const Ball = styled.img`
-//     width: 100px;
-//     height: auto;
-//     margin-bottom: 30px;
-// `
 
 export const ContainerCardHome = () => {
     return (
         <ContainerMaster>
-            {/* <Ball src="/assets/icons/ball.png" /> */}
             <ContainerCard>
                 <ContainerImage src="/assets/imgs/diretor2.png" />
                 <ContainerInfo>

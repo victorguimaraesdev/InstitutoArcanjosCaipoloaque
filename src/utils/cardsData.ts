@@ -13,7 +13,7 @@ export const cardsData = [
   },
   {
     id: 3,
-    img: "/assets/imgs/img4.png",
+    img: "/assets/imgs/img2.png",
     title: "Equipe Unida",
     text: "Mais do que esporte, somos uma família dentro e fora da água."
   }
