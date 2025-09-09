@@ -21,7 +21,7 @@ const ContainerCard = styled.div`
     width: 45%;
     min-width: 300px;
     height: 250px;
-    border: 4px solid #002063;
+    border: 3px solid #002063;
 
     @media (max-width: 1024px) {
         width: 70%;
@@ -45,7 +45,7 @@ const ContainerCard = styled.div`
 const ContainerImage = styled.img`
     width: 30%;
     height: auto;
-    border-right: 4px solid #002063;
+    border-right: 3px solid #002063;
 
     @media (max-width: 1024px) {
         width: 35%;
