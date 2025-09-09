@@ -17,7 +17,7 @@ const ContainerMaster = styled.div`
 
 const ContainerCard = styled.div`
     display: flex;
-    width: 50%;
+    width: 45%;
     min-width: 300px;
     height: 250px;
     border: 4px solid #002063;
